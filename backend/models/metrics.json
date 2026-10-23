@@ -1,0 +1,99 @@
+{
+  "selected_model": "Passive Aggressive",
+  "positive_class": "FAKE",
+  "models": {
+    "Logistic Regression": {
+      "validation": {
+        "accuracy": 0.9861558274307791,
+        "precision": 0.9911598302687411,
+        "recall": 0.9787011173184358,
+        "f1": 0.9848910751932537,
+        "confusion_matrix": [
+          [
+            2803,
+            61
+          ],
+          [
+            25,
+            3323
+          ]
+        ]
+      },
+      "test": {
+        "accuracy": 0.9854475209272376,
+        "precision": 0.9923317239420619,
+        "recall": 0.975977653631285,
+        "f1": 0.9840867483453035,
+        "confusion_matrix": [
+          [
+            3494,
+            86
+          ],
+          [
+            27,
+            4158
+          ]
+        ]
+      }
+    },
+    "Passive Aggressive": {
+      "validation": {
+        "accuracy": 0.9932388924661945,
+        "precision": 0.9943938332165382,
+        "recall": 0.9909217877094972,
+        "f1": 0.9926547743966422,
+        "confusion_matrix": [
+          [
+            2838,
+            26
+          ],
+          [
+            16,
+            3332
+          ]
+        ]
+      },
+      "test": {
+        "accuracy": 0.9930457179652286,
+        "precision": 0.9932848349188584,
+        "recall": 0.9916201117318436,
+        "f1": 0.9924517752306402,
+        "confusion_matrix": [
+          [
+            3550,
+            30
+          ],
+          [
+            24,
+            4161
+          ]
+        ]
+      }
+    }
+  },
+  "selected_test": {
+    "accuracy": 0.9930457179652286,
+    "precision": 0.9932848349188584,
+    "recall": 0.9916201117318436,
+    "f1": 0.9924517752306402,
+    "confusion_matrix": [
+      [
+        3550,
+        30
+      ],
+      [
+        24,
+        4161
+      ]
+    ]
+  },
+  "dataset": {
+    "rows": 38825,
+    "train": 24848,
+    "validation": 6212,
+    "test": 7765,
+    "source": "data",
+    "is_sample": false
+  },
+  "trained_at": "2026-10-23T18:29:41"
+}
